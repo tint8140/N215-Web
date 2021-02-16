@@ -1,0 +1,22 @@
+.contact {
+  height: 40%;
+  padding: 10px 40px 20px 100px;
+  background-color: aquamarine;
+
+  .information {
+    height: 100%;
+    display: flex;
+
+    .address {
+      width: 50%;
+      font-size: 20px;
+    }
+
+    .trainer {
+      width: 50%;
+      img {
+        width: 200px;
+      }
+    }
+  }
+}

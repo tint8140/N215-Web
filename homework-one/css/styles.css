@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-bottom: 16px;
+}
+
+section {
+  padding: 100px 20px 20px 30px;
+}
+
+nav {
+  width: 100%;
+  height: 80px;
+  background-color: pink;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.home {
+  background-color: pink;
+  height: 100%;
+  padding: 100px 20px 20px 20px;
+  background-image: linear-gradient(to right, rgba(25, 25, 100, 0.6), rgba(25, 25, 100, 0.6)), url(../images/background.jpg);
+  background-image: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: #e9df51;
+}
+.home h1 {
+  text-align: center;
+}
+.home .homepage {
+  padding-left: 100px;
+  width: 80%;
+  font-size: 20px;
+}
+
+.about {
+  height: 30%;
+  padding: 20px 40px 20px 60px;
+  background-color: aquamarine;
+}
+.about .top-area {
+  height: 100px;
+  display: flex;
+}
+.about .par {
+  height: 100%;
+  width: 50%;
+}
+.about .image {
+  width: 50%;
+}
+
+.programs {
+  background-color: beige;
+  height: 100%;
+  padding: 40px 20px 20px 100px;
+}
+.programs h1 {
+  text-align: center;
+}
+.programs .programholder {
+  height: 100%;
+  display: flex;
+}
+.programs .programholder .imageholder {
+  width: 40%;
+  color: red;
+  padding-bottom: 30px;
+}
+.programs .programholder .imageholder h2 {
+  text-decoration: none;
+  color: Black;
+}
+.programs .programholder .infos {
+  width: 50%;
+  font-size: 15px;
+}
+
+.contact {
+  height: 40%;
+  padding: 10px 40px 20px 100px;
+  background-color: aquamarine;
+}
+.contact .information {
+  height: 100%;
+  display: flex;
+}
+.contact .information .address {
+  width: 50%;
+  font-size: 20px;
+}
+.contact .information .trainer {
+  width: 50%;
+}
+.contact .information .trainer img {
+  width: 200px;
+}

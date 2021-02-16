@@ -1,0 +1,16 @@
+.home {
+  background-color: pink;
+  height: 100%;
+  // r b l
+  padding: 100px 20px 20px 20px;
+  background-image: 
+  //color opacity
+    linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.4)),
+    url(../images/background.jpg);
+
+  background-image: no-repeat;
+  //cover the entire screen
+  background-size: cover;
+  background-position: center;
+  color: white;
+}

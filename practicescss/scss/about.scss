@@ -1,0 +1,23 @@
+.about {
+  height: 40%;
+  background-color: aquamarine;
+  .top-area {
+    height: 30%;
+    display: flex;
+  }
+  .par {
+    background: bisque;
+    height: 100%;
+    width: 50%;
+    padding-right: 20px;
+  }
+  .image-holder {
+    // background-color: brown;
+    height: 100%;
+    width: 50%;
+
+    img {
+      height: 100%;
+    }
+  }
+}

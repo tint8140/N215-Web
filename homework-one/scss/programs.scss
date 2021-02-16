@@ -1,0 +1,29 @@
+.programs {
+  background-color: beige;
+  height: 100%;
+
+  padding: 40px 20px 20px 100px;
+  h1 {
+    text-align: center;
+  }
+
+  .programholder {
+    height: 100%;
+    display: flex;
+
+    .imageholder {
+      width: 40%;
+      color: red;
+      h2 {
+        text-decoration: none;
+        color: Black;
+      }
+      padding-bottom: 30px;
+    }
+
+    .infos {
+      width: 50%;
+      font-size: 15px;
+    }
+  }
+}
